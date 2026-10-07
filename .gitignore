@@ -1,0 +1,76 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-link
+pip-wheel-metadata/
+.installed.cfg
+lib/
+lib64/
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Jupyter Notebooks - strip outputs before committing
+# ============================================================
+.ipynb_checkpoints/
+# Uncomment below if you want to exclude notebooks entirely:
+# *.ipynb
+
+# ============================================================
+# Large Model Files — host on Kaggle / HuggingFace instead
+# ============================================================
+models/*.keras
+models/*.h5
+models/*.pb
+models/*.onnx
+# models/*.pb
+# models/*.onnx
+
+# ============================================================
+# Data files (never commit raw dataset)
+# ============================================================
+data/
+datasets/
+*.csv.gz
+*.zip
+*.tar.gz
+
+# ============================================================
+# OS & System
+# ============================================================
+*.log
+*.tmp
+*.bak
+.cache/

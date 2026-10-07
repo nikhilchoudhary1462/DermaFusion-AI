@@ -1,0 +1,4 @@
+Model,Accuracy (%),Balanced Acc (%),Macro F1,Mel. Precision (%),Mel. Recall (%),Mel. F1,Mel. Specificity (%)
+M4: Intact Metadata (Standard Inference),67.77,53.01,0.4813,34.46,61.2,0.4409,83.22
+M4: Zeroed Metadata (Ablated Stream),61.71,47.78,0.4639,28.0,61.2,0.3842,77.3
+M4: Permuted Metadata (Mismatched Stream),59.02,47.19,0.4103,28.62,49.73,0.3633,82.11

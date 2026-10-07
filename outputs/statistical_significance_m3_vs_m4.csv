@@ -1,0 +1,5 @@
+Statistical Evaluation,Statistic,Result Metric / Interval,Statistically Significant / Excludes Zero
+Exact McNemar Test,"Discordant b=90, c=84",p = 7.0477e-01,False
+Lesion-Clustered Bootstrap ΔAccuracy,1000 Iterations,"+0.41% [95% CI: -1.49%, +2.45%]",False
+Lesion-Clustered Bootstrap ΔMacro F1,1000 Iterations,"-0.06 [95% CI: -0.10, -0.01]",True
+Lesion-Clustered Bootstrap ΔMelanoma Recall,1000 Iterations,"-7.10% [95% CI: -12.94%, -1.06%]",True

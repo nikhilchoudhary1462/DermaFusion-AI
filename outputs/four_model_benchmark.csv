@@ -1,0 +1,5 @@
+Model,Accuracy (%),Balanced Acc (%),Macro F1,Mel. Precision (%),Mel. Recall (%),Mel. F1,Mel. Specificity (%)
+M1: Metadata-Only Tabular Network,26.45,30.04,0.1722,21.85,18.03,0.1976,90.7
+M2: Image-Only EfficientNetB0 (Fine-Tuned),63.84,58.76,0.4944,31.3,59.02,0.4091,81.32
+M3: Simple Concat Multimodal Fusion,67.36,64.79,0.538,33.33,68.31,0.448,80.3
+M4: Gated Multimodal Fusion (Proposed),67.77,53.01,0.4813,34.46,61.2,0.4409,83.22
